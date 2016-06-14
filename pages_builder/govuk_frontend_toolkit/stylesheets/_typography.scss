@@ -1,7 +1,7 @@
 @import '_font_stack.scss';
-@import '_conditionals.scss';
 @import '_device-pixels.scss';
-@import '_url-helpers.scss';
+
+
 
 //  GOV.UK typography palettes
 
@@ -19,11 +19,11 @@ $is-print: false !default;
 
 @mixin _core-font-generator($font-size: 19px, $font-size-640: 16px, $font-size-print: 14pt, $line-height: (25 / 19), $line-height-640: (20 / 16), $tabular-numbers: false, $font-weight: 400) {
   @if $tabular-numbers == true {
-    font-family: $NTA-Light-Tabular;
+    font-family: $Muli;
   } @else if $is-print {
     font-family: $Print-reset;
   } @else {
-    font-family: $NTA-Light;
+    font-family: $Muli;
   }
   @if $is-print == false {
     font-size: $font-size;

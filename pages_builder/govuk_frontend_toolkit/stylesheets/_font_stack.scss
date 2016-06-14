@@ -10,34 +10,16 @@
 //  the font-stack in a font-face declaration rather
 //  than with the usual font-family.
 
-// New Transport Light
+// Body
 
-$NTA-Light:
-  "nta", 
-  Arial,
-  sans-serif;
+$Muli:
+  'Muli', sans-serif;
 
-// New Transport Light with Tabular
+// Title
 
-$NTA-Light-Tabular:
-  "ntatabularnumbers",
-  "nta", 
-  Arial,
-  sans-serif;
+$Poppins:
+  'Poppins', sans-serif;
 
-// Helvetica Regular
-
-@font-face {
-  font-family: GDS-Logo;
-  src: local("HelveticaNeue"),
-       local("Helvetica Neue"),
-       local("Arial"),
-       local("Helvetica");
-}
-
-$Helvetica-Regular:
-  "GDS-Logo",
-  sans-serif;
 
 // Font reset for print
 

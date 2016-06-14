@@ -1,7 +1,9 @@
 @import "_colours.scss";
+@import "_inoket-colours.scss";
 @import "_typography.scss";
 @import "_shims.scss";
 @import "shared_scss/_lists.scss";
+@import "_device-pixels.scss";
 
 .instruction-list {
   @include core-19;
@@ -69,10 +71,6 @@
     background: file-url('icon-important.png') no-repeat 0;
     background-size: 34px 34px;
 
-    @include device-pixel-ratio() {
-      background: file-url('icon-important-2x.png') no-repeat 0;
-      background-size: 34px 34px;
-    }
   }
 
   strong {
