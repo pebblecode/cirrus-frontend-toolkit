@@ -1,5 +1,5 @@
 {
-  "name": "digitalmarketplace-frontend-toolkit",
+  "name": "cirrus-frontend-toolkit",
   "description": "Front end application for Digital Marketplace suppliers",
   "version": "0.0.2",
   "engine": "node >= 0.10.0",
