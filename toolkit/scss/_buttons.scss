@@ -3,7 +3,7 @@
 @import "_typography.scss";
 
 .button-save {
-  @include button($inoket-green);
+  @include button(#4FE4C5);
   @include core-24;
   display: block;
   margin: 0 0 25px 0;
