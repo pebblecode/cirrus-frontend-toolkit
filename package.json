@@ -1,7 +1,11 @@
 {
   "name": "cirrus-frontend-toolkit",
   "description": "Front end application for Digital Marketplace suppliers",
+<<<<<<< HEAD
   "version": "0.0.6",
+=======
+  "version": "0.0.5",
+>>>>>>> 7ff57fae57e7e20f33bf9977dd9cdd3766d5bb84
   "engine": "node >= 0.10.0",
   "dependencies": {
     "gulp": "3.8.7",
