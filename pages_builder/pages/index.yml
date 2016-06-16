@@ -1,4 +1,4 @@
-pageTitle: Digital Marketplace frontend toolkit
+pageTitle: Inoket frontend toolkit
 assetPath: govuk_template/assets/
 content: >
   <main role="main" id="content" class="wrapper">
@@ -7,7 +7,7 @@ content: >
         <p class="context">
           <a class="version-link" href="https://github.com/alphagov/digitalmarketplace-frontend-toolkit/releases/tag/v{{ version }}">Version {{ version }}</a>
         </p>
-        <h1>Digital Marketplace frontend toolkit</h1>
+        <h1>Inoket frontend toolkit</h1>
       </header>
       <ul class="index-list">
         <li><a href="beta-banner.html">Beta banner</a></li>

@@ -15,7 +15,7 @@ examples:
               <span class="question-heading-with-hint">DUNS number</span>
             </label>
             <span class="question-advice" id="input-duns_number-question-advice">
-              <p>The Digital Marketplace uses your head office’s 9‑digit DUNS number to see if you’re already a supplier on the G‑Cloud framework.</p>
+              <p>The Inoket uses your head office’s 9‑digit DUNS number to see if you’re already a supplier on the G‑Cloud framework.</p>
               <p><a href="http://www.dnb.co.uk/dandb-duns-number" rel="external">Find out how to get a DUNS number</a></p>
             </span>
             <input type="text" name="duns_number" id="input-duns_number" class="text-box" value="" aria-describedby="input-duns_number-question-advice ">

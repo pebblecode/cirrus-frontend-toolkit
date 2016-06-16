@@ -12,7 +12,7 @@
 // By default, block labels stack vertically
 .selection-button {
 
-  @include core-19; /* Specific to Digital Marketplace */
+  @include core-19; /* Specific to Inoket */
   display: block;
   float: none;
   clear: left;
@@ -20,7 +20,7 @@
 
   background: $panel-colour;
   border: 1px solid $panel-colour;
-  padding: 10px $gutter-half 10px ($gutter * 1.5); /* Specific to Digital Marketplace */
+  padding: 10px $gutter-half 10px ($gutter * 1.5); /* Specific to Inoket */
   margin-top: 10px;
   margin-bottom: 10px;
 
@@ -71,7 +71,7 @@
   outline: none;
 }
 
-// Styles specific to Digital Marketplace
+// Styles specific to Inoket
 .selection-button-with-description {
   margin-top: 15px;
 }
