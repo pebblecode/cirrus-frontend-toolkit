@@ -79,7 +79,7 @@ examples:
   - |
     {% import "summary-table.html" as summary %}
     {{ summary.heading("Summary table with manual rows") }}
-    {{ summary.description("This will be displayed on the Digital Marketplace.") }}
+    {{ summary.description("This will be displayed onInoket.") }}
     {% call summary.mapping_table(
       caption="Summary table with manual rows",
       field_headings=[
