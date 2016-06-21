@@ -6,7 +6,7 @@
   "dependencies": {
     "gulp": "3.8.7",
     "gulp-jasmine-phantom": "2.0.1",
-    "govuk_frontend_toolkit": "4.2.1"
+    "govuk_frontend_toolkit": "git://github.com/pebblecode/govuk_frontend_toolkit"
   },
   "scripts": {
     "test": "./node_modules/gulp/bin/gulp.js test"
